@@ -1,0 +1,1 @@
+alter table t_trade add dealt_ccy_id_orig numeric(38), add direction_id_orig numeric(38), add price_orig numeric(38, 8);

@@ -1,0 +1,1 @@
+alter table t_trade add murex_id varchar,add stp_result varchar(10),add murex_response_timestamp timestamp(6);

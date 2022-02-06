@@ -1,0 +1,1 @@
+delete from t_currency_pair where ccy_pair = 'SGD/USD';

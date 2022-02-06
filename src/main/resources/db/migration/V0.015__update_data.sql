@@ -1,0 +1,1 @@
+update t_expiry_time set days = 30;

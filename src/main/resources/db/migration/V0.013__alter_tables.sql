@@ -1,0 +1,1 @@
+alter table t_trade add long_customer_name varchar(200) default'' not null;
