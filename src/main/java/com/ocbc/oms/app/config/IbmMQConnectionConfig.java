@@ -83,7 +83,8 @@ public class IbmMQConnectionConfig {
     @Bean
     JmsTemplate topicTemplate(MQTopicConnectionFactory topicConnectionFactory) {
         JmsTemplate jmsTemplate = new JmsTemplate(topicConnectionFactory);
-        jmsTemplate.setPubSubDomain(Boolean.TRUE);// 操作域
+        // 操作域
+        jmsTemplate.setPubSubDomain(Boolean.TRUE);
         return jmsTemplate;
     }
 
