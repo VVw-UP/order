@@ -29,7 +29,6 @@ import java.util.Map;
 @RequestMapping("api/order")
 public class OrderController {
     private final DbOMSManager dbOMSManager;
-    private int a;
 
     public OrderController(DbOMSManager dbOMSManager) {
         this.dbOMSManager = dbOMSManager;
